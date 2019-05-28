@@ -1,18 +1,19 @@
-# Upgrade-THRIFT---0.11.0
-Masukan Folder² Thrift Ini Ke Folder Bot Yang Kalian Pilih Agar Bisa Digunakan
-
-THRIFT BY : BANG ACIL PRANKBOTS
-
-from thrift.unverting import *
-
-from thrift.TMultiplexedProcessor import *
-
-from thrift.TSerialization import *
-
-from thrift.TRecursive import *
-
-from thrift import transport, protocol, server
-
-Copas Ajah ke 5 from thrift di atas ke script bot kalian, dan pindahkan folder thrift & ecc nya ke folder bot kalian
-
-untuk memaksimalkan kinerja bot kalian
+pkg update
+pkg install git
+pkg install python3-pip
+pip3 install rsa
+pip3 install thrift==0.11.3
+pip3 install requests
+pip3 install bs4
+pip3 install gtts
+pip3 install beautifulsoup
+pip3 install googletrans
+pip3 install pafy
+pip3 install humanfriendly
+pip3 install goslate
+pip3 install wikipedia
+pip3 install youtube_dl
+pip3 install tweepy
+git clone https://github.com/dhenza1415/PROTECT
+cd PROTECT
+python3 prosk.py
