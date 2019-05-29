@@ -7353,8 +7353,10 @@ def bot(op):
                         elif cmd == "clearban" or text.lower() == 'cbl':
                           if wait["selfbot"] == True:
                             if msg._from in creator or msg._from in owner or msg._from in admin:
-                              cl.sendMessage(msg.to,"Succes Clean up {} Total Blacklist".format(str(len(wait["blacklist"]))))
-                              wait["blacklist"] = {}
+                                  wait["blacklist"] = {}
+                                  ragets = cl.getContact(wait["blacklist"])
+                                  mc = "「%i」User Blacklist" % len(ragets)
+                                  cl.sendMessage(msg.to,"All banned has been deleted\n" +mc)
                               
                         elif text.lower() == rname["rname"]+" bl" or text.lower() == sname["sname"]+" bl":
                           if wait["selfbot"] == True:
