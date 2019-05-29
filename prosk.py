@@ -3,10 +3,10 @@
 '''
 
 from DHENZA import *
-from akad.ttypes import 
-from thrift.TMultiplexedProcessor import
-from thrift.TSerialization import
-from thrift.TRecursive import
+from akad.ttypes import *
+from thrift.TMultiplexedProcessor import *
+from thrift.TSerialization import *
+from thrift.TRecursive import *
 from thrift import transport, protocol, server
 from important import *
 from random import randint
