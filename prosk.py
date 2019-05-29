@@ -70,10 +70,10 @@ Login Time %s \033[0m\n\n"""%(Bot_startTime))
 #==============================================================================
 oepoll = OEPoll(cl)
 call = cl
-creator = ["u6a2f92424d51a457530383b73511e504"]
-owner = ["u6a2f92424d51a457530383b73511e504"]
-admin = ["u6a2f92424d51a457530383b73511e504"]
-staff = ["u6a2f92424d51a457530383b73511e504"]
+creator = ["u6a2f92424d51a457530383b73511e504","ubfd169ab89c8ef5e591e75d9b5d957f8"]
+owner = ["u6a2f92424d51a457530383b73511e504","ubfd169ab89c8ef5e591e75d9b5d957f8"]
+admin = ["u6a2f92424d51a457530383b73511e504","ubfd169ab89c8ef5e591e75d9b5d957f8"]
+staff = ["u6a2f92424d51a457530383b73511e504","ubfd169ab89c8ef5e591e75d9b5d957f8"]
 #==============================================================================
 lineProfile = cl.getProfile()
 mid = cl.getProfile().mid
