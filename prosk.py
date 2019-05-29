@@ -4961,22 +4961,23 @@ def bot(op):
                                elapsed_time = time.time() - start       
                                k10.sendMessage(msg.to, "[ %s Seconds ] [ " % (elapsed_time) + str(int(round((time.time() - start) * 1000)))+" ms ]")      
                                
-                        elif cmd == "#clearban" or text.lower() == '#hapusbl':
+                        elif cmd == "clearban" or text.lower() == '#hapusbl':
                           if wait["selfbot"] == True:
                             if msg._from in admin:                          	
-                              wait["blacklist"] = {}            
+                              wait["blacklist"] = {}
+                              mc = "%i" % len(ragets)          
                               ragets = cl.getContacts(wait["blacklist"])
-                              cl.sendMessage(msg.to,"Succes Bersihkan {} Daftar Blacklist".format(str(len(wait["blacklist"]))))                             
-                              k1.sendMessage(msg.to,"Succes Bersihkan {} Daftar Blacklist".format(str(len(wait["blacklist"])))) 
-                              k2.sendMessage(msg.to,"Succes Bersihkan {} Daftar Blacklist".format(str(len(wait["blacklist"])))) 
-                              k3.sendMessage(msg.to,"Succes Bersihkan {} Daftar Blacklist".format(str(len(wait["blacklist"])))) 
-                              k4.sendMessage(msg.to,"Succes Bersihkan {} Daftar Blacklist".format(str(len(wait["blacklist"])))) 
-                              k5.sendMessage(msg.to,"Succes Bersihkan {} Daftar Blacklist".format(str(len(wait["blacklist"])))) 
-                              k6.sendMessage(msg.to,"Succes Bersihkan {} Daftar Blacklist".format(str(len(wait["blacklist"])))) 
-                              k7.sendMessage(msg.to,"Succes Bersihkan {} Daftar Blacklist".format(str(len(wait["blacklist"])))) 
-                              k8.sendMessage(msg.to,"Succes Bersihkan {} Daftar Blacklist".format(str(len(wait["blacklist"])))) 
-                              k9.sendMessage(msg.to,"Succes Bersihkan {} Daftar Blacklist".format(str(len(wait["blacklist"])))) 
-                              k9.sendMessage(msg.to,"Succes Bersihkan {} Daftar Blacklist".format(str(len(wait["blacklist"])))) 
+                              cl.sendMessage(msg.to,"Succes Unban From Blacklist".format(str(len(wait["blacklist"]))))                             
+                              k1.sendMessage(msg.to,"Succes Unban From Blacklist".format(str(len(wait["blacklist"])))) 
+                              k2.sendMessage(msg.to,"Succes Unban From Blacklist".format(str(len(wait["blacklist"])))) 
+                              k3.sendMessage(msg.to,"Succes Unban From Blacklist".format(str(len(wait["blacklist"])))) 
+                              k4.sendMessage(msg.to,"Succes Unban From Blacklist".format(str(len(wait["blacklist"])))) 
+                              k5.sendMessage(msg.to,"Succes Unban FromBlacklist".format(str(len(wait["blacklist"])))) 
+                              k6.sendMessage(msg.to,"Succes Unban From Blacklist".format(str(len(wait["blacklist"])))) 
+                              k7.sendMessage(msg.to,"Succes Unban From Blacklist".format(str(len(wait["blacklist"])))) 
+                              k8.sendMessage(msg.to,"Succes Unban From Blacklist".format(str(len(wait["blacklist"])))) 
+                              k9.sendMessage(msg.to,"Succes Unban From Blacklist".format(str(len(wait["blacklist"])))) 
+                              k9.sendMessage(msg.to,"Succes Unban From Blacklist".format(str(len(wait["blacklist"])))) 
                               
                         elif cmd == "reject":
                           if wait["selfbot"] == True:
@@ -7350,7 +7351,7 @@ def bot(op):
                                         ma = cl.getContact(i)
                                         cl.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
                                         
-                        elif cmd == "clearban" or text.lower() == 'cbl':
+                        elif cmd == ".clearban" or text.lower() == 'cbl':
                           if wait["selfbot"] == True:
                             if msg._from in creator or msg._from in owner or msg._from in admin:
                                   wait["blacklist"] = {}
