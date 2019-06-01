@@ -4428,6 +4428,21 @@ def bot(op):
                         wait["dellstaff"] = True
                         cl.sendMessage(msg.to,"Nothing in staff")
 #SC ADD ADMIN
+                 elif ("Adminadd " in msg.text):
+                          if wait["selfbot"] == True:
+                            if msg._from in admin:
+                               key = eval(msg.contentMetadata["MENTION"])
+                               key["MENTIONEES"][0]["M"]
+                               targets = []
+                               for x in key["MENTIONEES"]:
+                                    targets.append(x["M"])
+                               for target in targets:
+                                       try:
+                                           admin.append(target)
+                                           cl.sendMessage(msg.to,"Berhasil menambahkan admin")
+                                       except:
+                                           pass
+
                  if msg._from in owner:
                   if wait["addadmin"] == True:
                     if msg.contentMetadata["mid"] in admin:
@@ -5530,7 +5545,7 @@ def bot(op):
                                     c = c + 1
                                     end = '\n'
                                     mc += str(c) + ". " +cl.getContact(m_id).displayName + "\n"
-                                cl.sendMessage(msg.to,"🔰ᴀᴅᴍɪɴʟɪsᴛ🔰\n\n🔰ᴏᴡɴᴇʀ\n"+ma+"\n🔰ᴀᴅᴍɪɴ\n"+mb+"\n🔰sᴛᴀғғ:\n"+mc+"\n%s 🔰ᴀᴅᴍɪɴʟɪsᴛ🔰" %(str(len(owner)+len(admin)+len(staff))))
+                                cl.sendMessage(msg.to,"🔴Adminlist🔴\n\n🔴Owner\n"+ma+"\n🔴Admin\n"+mb+"\n🔴Staff:\n"+mc+"\n%s Adminlist" %(str(len(owner)+len(admin)+len(staff))))
 
                         elif cmd == "protectlist":
                           if wait["selfbot"] == True:
