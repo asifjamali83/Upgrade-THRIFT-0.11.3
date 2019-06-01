@@ -4965,7 +4965,7 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in admin:                          	
                               wait["blacklist"] = {} 
-                              ragets = cl.getContacts(wait["blacklist"])
+                              mc = "%i" % len(ragets)
                               cl.sendMessage(msg.to,"Succes Bersihkan {} Daftar Blacklist".format(str(len(wait["blacklist"]))))                             
                               k1.sendMessage(msg.to,"Succes Bersihkan {} Daftar Blacklist".format(str(len(wait["blacklist"])))) 
                               k2.sendMessage(msg.to,"Succes Bersihkan {} Daftar Blacklist".format(str(len(wait["blacklist"])))) 
@@ -7354,8 +7354,7 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in creator or msg._from in owner or msg._from in admin:
                               wait["blacklist"] = {}
-                              ragets = cl.getContacts(wait["blacklist"])
-                              mc = "「%i」User Blacklist" % len(ragets)
+                              mc = "%i" % len(ragets)
                               cl.sendMessage(msg.to,"Succes clearall " +mc)
                               
                         elif text.lower() == rname["rname"]+" bl" or text.lower() == sname["sname"]+" bl":
