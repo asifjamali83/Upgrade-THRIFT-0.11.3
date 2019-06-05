@@ -1717,8 +1717,8 @@ def bot(op):
 
 #------------------------✖ BECK ✖-----------------------------#
             elif "Broadcast: " in msg.text:
-        bc = msg.text.replace("Broadcast: ","")
-        gid = cl.getGroupIdsJoined()
+                bc = msg.text.replace("Broadcast: ","")
+                gid = cl.getGroupIdsJoined()
         if msg.from_ in admin:
             for i in gid:
             cl.sendText(i,"「 BROADCAST 」\n"+bc+msg)
@@ -1761,7 +1761,7 @@ def bot(op):
                     profile.displayName = string
                     ki2.updateProfile(profile)
                     ki2.sendText(msg.to," Done update names " + string + "👈")
-                    
+
             elif "3name:" in msg.text:
                 string = msg.text.replace("3name:","")
                 if len(string.decode('utf-8')) <= 20:
