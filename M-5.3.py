@@ -14,23 +14,23 @@ import time, random, sys, re, os, json, subprocess, threading, string, codecs, r
 from gtts import gTTS 
 #===================#
 cl = LINETCR.LINE()
-cl.login(token="EFdbXbS1S55VPDXA78C4.v1HrXTya8vs3Kmp/GY36La.88el/KN06NqbCa/CiSCDy1lWgYXvsP8irXqHUGthIAo=")
+cl.login(token="EFitAQlaqdMz659xrog4.v1HrXTya8vs3Kmp/GY36La.YK0lAHUSB+3cZrROYJicXyV6BW28n59IPL3+6so7DgU=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="EFBNSpWCLdpuo0BIjCDb.iEKLQqr+KXdSVGWpsvd/QW.lpK6vudHi5QJHTvh/W8qvZU2HQqUX4DoNgkDY6u5Rg8=")
+ki.login(token="EF5yaohc7GcnExGpPtAb.iEKLQqr+KXdSVGWpsvd/QW.hGk1ZTM44oa6VUxNGz9DSQmqEAlkbeBcpE0cUwnLdzs=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="EF7DAP7gKYaAlfMUn6N0.nvD/uRjfRoBETK4ZOWhZSa.eH7aRiLC2MELL3I7NK+IMSU9XX2nWXZzWwmP5UhTAOI=")
+kk.login(token="EF49wrk3oIrh1lWyRnF0.nvD/uRjfRoBETK4ZOWhZSa.3GJMLgxnJ6CoFaOaNBjmkNGhjDOjPDsCIdJVBtpnCng=")
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="EFwhe3AUzVGdPEt2adL4./Coef04cSd1Ymaih+V2ADa.F1xR8Hegz/yfSs1ewjBda//U9uCv9wncnbXADbs010s=")
+kc.login(token="EFgS2ZfQ1QJRlkCY4SM4./Coef04cSd1Ymaih+V2ADa.+gZ7mkM8pohBkL97g7IjWacuqwgaM6RDyLCetjtxA7k=")
 kc.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token="EFTRfvURHh79zpK0Krnd.CNZNgt3iUc3fYRhn7Cibxq.eQMgBrcZEijLM5yafpNae2ek4DUfGMFY2A9sWJWp1+I=")
+kd.login(token="EFxz3gcU6jR2r9kVpBtd.CNZNgt3iUc3fYRhn7Cibxq.ZFDLg9tjWWDGIVpL3n3tIYxL3ItOSoDqE8tQJuJJXGs=")
 kd.loginResult()
 
 ke = LINETCR.LINE()
