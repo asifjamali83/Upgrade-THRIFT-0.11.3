@@ -268,11 +268,11 @@ Imid = ku.getProfile().mid #Jinbei
 Smid = satpam.getProfile().mid #Akun Utama
 mid1 = k1.getProfile().mid #Backup
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid,mid1,"ubbf5fbe22865fcd64a4c4937d5b547c6"]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid,mid1,"u35577e52b245ace6deb64e33a301f3b0"]
 #there MID ud02674bbd4671d852c02883f8a4ee73d
 #abay MID ucc81edac143bab9dd6e8109b50fc4a0e
-admin=["u575851c6d600f154b790c3fe832dfa94",mid] 
-owner=["u575851c6d600f154b790c3fe832dfa94"]
+admin=["u35577e52b245ace6deb64e33a301f3b0",mid] 
+owner=["u35577e52b245ace6deb64e33a301f3b0"]
 staff=[]
 wait = {
     'contact':False,
