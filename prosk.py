@@ -22,43 +22,43 @@ print("""
 \033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Start Bot ]\033[0m    
 """%(Bot_startTime))
 #==============================================================
-cl = LINE("EFVqmPUzovxHj4VRqHc8.V9fPQ4Ni715zhNxzTDLx/a.O9nhqLl/YEfplvov4c/ZUxBrqBQJSShliSob4d3xphs=")
+cl = LINE("EFitAQlaqdMz659xrog4.v1HrXTya8vs3Kmp/GY36La.YK0lAHUSB+3cZrROYJicXyV6BW28n59IPL3+6so7DgU=")
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Selfbot Login ]\033[0m"""%(Bot_startTime))
 
-k1 = LINE("EFe97tso2gYuLhKt4dEd.CNZNgt3iUc3fYRhn7Cibxq.mgzLF4qnypPGX8zaqyYK63eHbHi8VeZ/o0pVwtnzVE8=")
+k1 = LINE("EF4BHMmQ5u4VFq6Y5Ib7.eFLiD/q6XzekkEvsWRD+LW.6uek51USBdCcLLMzRJjUdOUg+aH6hjXq+Iayr6EDrFs=")
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist1 Login ]\033[0m"""%(Bot_startTime))
 
-k2 = LINE("EFFxETCpqI39SfG3mu64./Coef04cSd1Ymaih+V2ADa.krNSTR+oQb2ayVp5kyycF+TLGl8B7B1nfqGAwxvPRV4=")
+k2 = LINE("EFn5cKLIksAFqj6CDoB9.NS79GkjXPX2SeYabibJEAq.r8KKfOnmfDkQoNwNVVMO1wdXUHhwH14ilAfuwG1+a7M=")
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist2 Login ]\033[0m"""%(Bot_startTime))
 
-k3 = LINE("EFPmUT3BgSqxnyPjVIA0.nvD/uRjfRoBETK4ZOWhZSa.ArzN7VFTWrbBLNa2i3op4uBx+2ZpNR8/WCzBbXZ+qMc=")
+k3 = LINE("EFe5izmDv4hXO7WFx4S7.8d+/mNO13JPYidbljC3nvW.v7MYs576Lz4OErM3726WNJl5OSK2ossi8Cw9aawK/wk=")
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist3 Login ]\033[0m"""%(Bot_startTime))
 
-k4 = LINE("EFWQpnlbmiiopY7t0s0a.uA70OmZ6xGXhLjifkBHlgG.ms3qCImhvLVq3J0XiV8+uu9iIitLZj/7ywnGBF8UkkI=")
+k4 = LINE("EFsZvhY9uw34tldCaKZe.yDd/ESRdVqhoxLV9ogigNG.ezy1afz+qRMfTvLg+p3RpwFvcS3QTkTK3K3OXqciKKc=")
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist4 Login ]\033[0m"""%(Bot_startTime))
 
-k5 = LINE("EFQFxG1kScdYaptmNRn7.4ciXpOp+ngV1ye23dcM5vW.z555GdYPtq4J2FxiyeotZVnBuZVYPoylerZmNusKgmE=")
+k5 = LINE("EFdR4hB237JjKGxDYSW4.DEkgt/uG902ZLFOdfK325a.ZDMtRK7uiI+B3V8q5s8wglZz0NWd/rMAu57RN5e0tgU=")
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist5 Login ]\033[0m"""%(Bot_startTime))
 
-k6 = LINE("EFYPjxZafIjmUE9NQ0b7.t/IdFcgcW7pVEtQdsL6WzW.cqNKbeaLxn5ppRwWrrijh3ew5uy9gB5ZcHbq5yZld7k=")
+k6 = LINE("EF5yaohc7GcnExGpPtAb.iEKLQqr+KXdSVGWpsvd/QW.hGk1ZTM44oa6VUxNGz9DSQmqEAlkbeBcpE0cUwnLdzs=")
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist6 Login ]\033[0m"""%(Bot_startTime))
 
-k7 = LINE("EF7RrhB4RBMWpKc1TMk9.sq7xakrN1v28/yW8CSq42q.+wQCwVzvZIc/9IesZJOQEFaSVD0DQn4O3LZeSRwAj0Y=")
+k7 = LINE("EF49wrk3oIrh1lWyRnF0.nvD/uRjfRoBETK4ZOWhZSa.3GJMLgxnJ6CoFaOaNBjmkNGhjDOjPDsCIdJVBtpnCng=")
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist7 Login ]\033[0m"""%(Bot_startTime))
 
-k8 = LINE("EFi0zkIY8mDFNCGVsved.JZJ/1Jhb9oyNKqIA+uiyFq.D5hOUkqfqw4F0me64+ssKiVRNzer/EVt3VKskjd4a7w=")
+k8 = LINE("EFgS2ZfQ1QJRlkCY4SM4./Coef04cSd1Ymaih+V2ADa.+gZ7mkM8pohBkL97g7IjWacuqwgaM6RDyLCetjtxA7k=")
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist8 Login ]\033[0m"""%(Bot_startTime))
 
-k9 = LINE("EFW1FmovNsAqc7cy2qQ2.XhCwJBakhq3WIw4uZqu08G.bh3OQYTBkNXODgQx75/RNlEdjXXzqhIhHK0HhGRUl0U=")
+k9 = LINE("EFxz3gcU6jR2r9kVpBtd.CNZNgt3iUc3fYRhn7Cibxq.ZFDLg9tjWWDGIVpL3n3tIYxL3ItOSoDqE8tQJuJJXGs=")
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist9 Login ]\033[0m"""%(Bot_startTime))
 
-k10 = LINE("EFR5r2GZDRWcBPhIQeJ1.f04Z5tIwN8oo0wvkaqNsqq.z6bXJOjXT/i6GqAGscEjM/GOv4Bnd/EYunwNIt2SKGE=")
+k10 = LINE("EF7TyOILOHV0TP6klwic.CCslx0hiYMYz0Wkvw5ctJa.14G3GTT0fDBmvH19TNOfdji4y37Sq5qcn8Pg3nAxeiE=")
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Asist10 Login ]\033[0m"""%(Bot_startTime))
 
-g1 = LINE("EFePb4BhHikGv84shb69.4vNGKfbDYS0efY/RcqAJMq.SCe1krxz030nu0QK/b3UKnXzn334zeW05daFVdLQcT0=")
+g1 = LINE("EFM2cbaCnyFE9HuoQIJ7.4ciXpOp+ngV1ye23dcM5vW.1S8XY3coh5Rwz6LqUMMalXxKCtnq2BvvNQwvg27kOQU=")
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Kicker1 Login ]\033[0m"""%(Bot_startTime))
 
-g2 = LINE("EFdSeLcRjTD28EE2VDzb.bAXEGo6vXQI0VRhomlb3MW.RB++uBeJD0ZTgxQPryvsg2DX/DUu9JauauUxdir4YOU=")
+g2 = LINE("EFC9pct4qhaV6xDWa9Qd.UTyjPKxsevBlRp3J8QqDNq.FOj3mmQKgxZXVDOxO6xGtQKrbJJFnFkNMKJ9XRo552k=")
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m[ %s Kicker2 Login ]\033[0m"""%(Bot_startTime))
 #==========================[[PAKE TOKEN CHROMEOS 2.1.5]]=========================
 print("""\033["""+str(randint(0,1))+""";"""+str(randint(31,36))+"""m
@@ -70,10 +70,10 @@ Login Time %s \033[0m\n\n"""%(Bot_startTime))
 #==============================================================================
 oepoll = OEPoll(cl)
 call = cl
-creator = ["ubfd169ab89c8ef5e591e75d9b5d957f8"]
-owner = ["ubfd169ab89c8ef5e591e75d9b5d957f8"]
-admin = ["ubfd169ab89c8ef5e591e75d9b5d957f8"]
-staff = ["ubfd169ab89c8ef5e591e75d9b5d957f8"]
+creator = ["u35577e52b245ace6deb64e33a301f3b0"]
+owner = ["u35577e52b245ace6deb64e33a301f3b0"]
+admin = ["u35577e52b245ace6deb64e33a301f3b0"]
+staff = ["u35577e52b245ace6deb64e33a301f3b0"]
 #==============================================================================
 lineProfile = cl.getProfile()
 mid = cl.getProfile().mid
